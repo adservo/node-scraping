@@ -1,0 +1,41 @@
+{
+  "name": "scraping",
+  "description": "Easily scrape simple, multi-view and even javascript dependent websites.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/markselby/node-scraping",
+  "author": {
+    "name": "Mark Selby",
+    "email": "mark@writebox.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markselby/node-scraping.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markselby/node-scraping/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/markselby/node-scraping/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/scraping",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies": {
+    "cheerio": "latest",
+    "request": "latest"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": []
+}
